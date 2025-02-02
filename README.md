@@ -33,13 +33,16 @@ SystemC defines its own data types for hardware modeling:
 - sc_uint<N>: Unsigned integer of N bits
 - sc_int<N>: Signed integer of N bits
 - sc_logic and sc_lv<N>: Logic values and logic vectors<br>
+
 **3. Processes**
 Processes define the behavior of modules. There are three types:
 - SC_METHOD: Executes once per event trigger (no internal wait).
 - SC_THREAD: Runs as a thread with wait() statements.
 - SC_CTHREAD: Used for clocked processes.<br>
+
 **4. Signals and Ports**
 - sc_signal<T>: Connects modules by transferring values between them.
 - sc_in<T> and sc_out<T>: Input and output ports for communication.<br>
+
 **5. Simulation and Timing**
 SystemC includes sc_time for defining time delays and event scheduling.<br>
