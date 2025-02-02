@@ -26,15 +26,15 @@ A basic SystemC module consists of:
 - sc_signal: Used for communication between modules.
 - sc_process: Describes concurrent behavior using SC_THREAD or SC_METHOD.<br>
 # SystemC Concepts
-**1. Modules and Hierarchy**
+**1. Modules and Hierarchy**<br>
 SystemC designs are composed of sc_module objects, allowing hierarchical modeling.<br>
-**2. Data Types**
+**2. Data Types**<br>
 SystemC defines its own data types for hardware modeling:
 - sc_uint<N>: Unsigned integer of N bits
 - sc_int<N>: Signed integer of N bits
 - sc_logic and sc_lv<N>: Logic values and logic vectors<br>
 
-**3. Processes**
+**3. Processes**<br>
 Processes define the behavior of modules. There are three types:
 - SC_METHOD: Executes once per event trigger (no internal wait).
 - SC_THREAD: Runs as a thread with wait() statements.
