@@ -46,3 +46,22 @@ Processes define the behavior of modules. There are three types:
 
 **5. Simulation and Timing**
 SystemC includes sc_time for defining time delays and event scheduling.<br>
+
+# How to Simulate SystemC Code?
+To configure SystemC for simulation in Visual Studio, follow these steps:<br>
+Open systemC.sln in Visual Studio and click Build.<br>
+Create a New Project via File → New Project.<br>
+**Set Up Project Properties:** <br>
+=> VC++ Settings:<br>
+**Include Directories** → Set to path navigating to src folder.<br>
+**Library Directories** → Set to path navigating to debug folder.<br>
+=> C++ Settings:<br>
+**Language** → ISO C++17 Standard (/std:c++17) or higher.<br>
+**Command Line** → Add /vmg.<br>
+=> Linker Settings:<br>
+**Input** → Additional Dependencies → Add SystemC.lib.<br>
+**General** → Additional Library Directory → Set to debug folder.<br>
+Click **Apply** and **OK**.<br>
+Include all necessary source files.<br>
+Press Ctrl+Shift+B to build the project.<br>
+Open Local Windows Debugger to view the simulated results.<br>
