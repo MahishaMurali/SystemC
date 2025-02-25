@@ -5,6 +5,7 @@ SystemC Learning <br>
 - [Installation](#installation)
 - [SystemC Basics](#systemC_basics)
 - [SystemC Consepts](#systemC_consepts)
+- [How to Simulate SystemC Code](#How_to_Simulate_SystemC_Code?)
 # Introduction
 SystemC is a set of C++ classes and macros that provide an event-driven simulation kernel, making it a powerful tool for system-level modeling and verification of hardware designs. It extends C++ to enable modeling of concurrent processes, hardware timing, and synchronization, making it widely used in hardware design and verification.
 This repository serves as a learning resource for SystemC, providing fundamental concepts, example code, and best practices to help engineers understand how to model and simulate hardware components efficiently.<br>
